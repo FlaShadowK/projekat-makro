@@ -84,7 +84,7 @@ export const BUDGET_2025: BudgetItem[] = [
 
 export const BUDGET_HEADLINE = {
   totalRevenuesBnSEK: 3050,
-  totalExpendituresBnSEK: 3138,
+  totalExpendituresBnSEK: 1700,
   /** % of GDP */
   fiscalBalancePctGDP: -0.8,
   fiscalBalanceBnSEK: -88,
