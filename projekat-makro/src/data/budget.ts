@@ -83,13 +83,14 @@ export const BUDGET_2025: BudgetItem[] = [
 ];
 
 export const BUDGET_HEADLINE = {
-  totalRevenuesBnSEK: 3050,
-  totalExpendituresBnSEK: 1700,
-  /** % of GDP */
+  totalRevenuesBnSEK: 1374,
+  totalExpendituresBnSEK: 1428,
   fiscalBalancePctGDP: -0.8,
-  fiscalBalanceBnSEK: -88,
+  fiscalBalanceBnSEK: -55,
   publicDebtPctGDP: 32,
   gdpEstimateBnSEK: 6300,
+  /** Ukupna javna potrosnja (centralna + regioni + opstine) */
+  totalPublicSpendingBnSEK: 3138,
 } as const;
 
 export interface RevenueItem {
